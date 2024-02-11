@@ -1,3 +1,3 @@
-observation,place_id,latitude,longitude
-20,18,46.985694,38.870705
-27,19,47.105826,39.267873
+observation,place_id,latitude,longitude,species
+20,18,46.985694,38.870705,s1
+27,19,47.105826,39.267873,s2

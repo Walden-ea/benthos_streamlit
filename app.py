@@ -11,6 +11,20 @@ import requests
 import hashlib
 import time
 import pandas as pd
+import random
+
+def string_to_color(text):
+    # Check if color already assigned to the string
+    if text in colors_dict:
+        return colors_dict[text]
+    else:
+        while True:
+            # Generate random color values between 0 and 255
+            color = [random.randint(0, 255), random.randint(0, 255), random.randint(0, 255)]
+            # Check if the generated color is unique
+            if color not in colors_dict.values():
+                colors_dict[text] = color
+                return color
 
 # Function to fetch CSV file from server
 def fetch_csv_file(url):
@@ -22,9 +36,31 @@ def fetch_csv_file(url):
 CSV_URL = "https://acab-193-232-210-148.ngrok-free.app/"
 cnt = 0
 title = st.title('Метки проб')
+old_pd = pd.read_csv('data.csv')
+
+colors_dict = {}
 # text = st.text('hello')
 # df_st = st.write(pd.read_csv('data.csv'),use_container_width=True)
-map = st.map(pd.read_csv('data.csv'))
+# old_pd['color'] = old_pd['text'].apply(lambda x: string_to_color(x))
+text = st.text('Карта с информацией о полученных пробах; Разные цвета - разные категории')
+
+# map = st.map(old_pd)
+
+
+csv_data = fetch_csv_file(CSV_URL)
+        # text.text(f'{csv_data}')
+
+with open("map.csv",'w') as f:
+    f.write(csv_data)
+
+
+df = pd.read_csv("map.csv")
+df['color'] = df['specie_name'].apply(lambda x: string_to_color(x))
+# df_st.write(df)
+# st.write(df)
+
+
+map = st.map(df,color='color',size = 10, use_container_width=True)
 while True:
     try:    
         # Fetch CSV file from server
@@ -36,8 +72,12 @@ while True:
 
         
         df = pd.read_csv("map.csv")
+        df['color'] = df['specie_name'].apply(lambda x: string_to_color(x))
         # df_st.write(df)
-        map.map(df, use_container_width=True)
+        # st.write(df)
+
+
+        map.map(df,color='color',size=10, use_container_width=True)
         # st.title(f"Count: {cnt}")
 
     except Exception as e:

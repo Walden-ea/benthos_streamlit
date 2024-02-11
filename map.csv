@@ -1,0 +1,31 @@
+observation,place_id,latitude,longitude,created_at,specie_name
+1,1,47.039916,39.258188,2024-02-11 09:54:30 UTC,Arcidae Anadara inaequivalvis
+6,6,45.451949,36.339545,2024-02-11 09:59:37 UTC,Arcidae Anadara inaequivalvis
+10,10,47.238759,39.127236,2024-02-11 10:02:44 UTC,Arcidae Anadara inaequivalvis
+28,20,47.178549,38.863654,2024-02-11 11:03:48 UTC,Arcidae Anadara inaequivalvis
+12,12,47.151339,39.164656,2024-02-11 10:04:24 UTC,Arcidae Anadara inaequivalvis
+30,21,47.231705,39.715717,2024-02-11 11:23:59 UTC,Arcidae Anadara inaequivalvis
+15,15,46.85241,37.234953,2024-02-11 10:07:50 UTC,Arcidae Anadara inaequivalvis
+32,23,47.017095,39.275016,2024-02-11 13:10:55 UTC,Arcidae Anadara inaequivalvis
+17,17,46.175719,35.384567,2024-02-11 10:22:03 UTC,Arcidae Anadara inaequivalvis
+17,17,46.175719,35.384567,2024-02-11 10:22:03 UTC,Arcidae Anadara inaequivalvis
+17,17,46.175719,35.384567,2024-02-11 10:22:03 UTC,Arcidae Anadara inaequivalvis
+17,17,46.175719,35.384567,2024-02-11 10:22:03 UTC,Arcidae Anadara inaequivalvis
+34,25,46.80642,38.48771,2024-02-11 13:51:19 UTC,Arcidae Anadara inaequivalvis
+2,2,47.13923,38.837913,2024-02-11 09:56:45 UTC,Pectinidae Flexopecten ponticus
+8,8,45.837631,35.06325,2024-02-11 10:01:04 UTC,Pectinidae Flexopecten ponticus
+3,3,46.7375,38.28615,2024-02-11 09:57:31 UTC,Raphitomidae Bela fuscata
+7,7,46.728217,37.972605,2024-02-11 10:00:31 UTC,Raphitomidae Bela fuscata
+4,4,47.258014,39.770905,2024-02-11 09:58:27 UTC,Cerithiidae Bittium reticulatum
+9,9,47.09388,38.962156,2024-02-11 10:02:14 UTC,Cerithiidae Bittium reticulatum
+14,14,46.246694,35.771842,2024-02-11 10:06:30 UTC,Cerithiidae Bittium reticulatum
+5,5,47.05093,37.561753,2024-02-11 09:59:01 UTC,Trochidae Gibbula adriatica
+11,11,46.485926,36.059564,2024-02-11 10:03:38 UTC,Trochidae Gibbula adriatica
+13,13,45.55084,35.54206,2024-02-11 10:05:57 UTC,Trochidae Gibbula adriatica
+16,16,47.041344,38.199071,2024-02-11 10:18:47 UTC,Lucinidae Lucinella divaricata
+20,18,46.985694,38.870705,2024-02-11 10:46:23 UTC,Dreissenidae Dreissena polymorpha
+27,19,47.105826,39.267873,2024-02-11 11:01:37 UTC,Dreissenidae Dreissena polymorpha
+31,22,47.22671,39.735321,2024-02-11 12:01:37 UTC,Dreissenidae Dreissena polymorpha
+32,23,47.017095,39.275016,2024-02-11 13:10:55 UTC,Dreissenidae Dreissena polymorpha
+32,23,47.017095,39.275016,2024-02-11 13:10:55 UTC,Dreissena Bugensis
+33,24,44.765939,38.594611,2024-02-11 13:16:56 UTC,Dreissena Bugensis
